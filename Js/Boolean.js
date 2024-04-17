@@ -11,3 +11,13 @@ function flickSwitch(arr){
     return arr
 }
 
+function flickSwitch(arr) {
+    let True = true
+    
+    return arr.map(item=>{
+      if(item==='flick'){
+        True = !True
+      }
+      return True
+    })
+  }
